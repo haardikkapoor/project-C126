@@ -1,0 +1,40 @@
+#heading{
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+#body{
+    background-color: aqua;
+}
+
+#p{
+    font-size: 30px;
+}
+#h{
+   color: yellow;
+   font-size: 30px;
+}
+#s{
+    font-size: 30px;
+    color: yellow;
+}
+#a{
+    font-size: 30px;
+    color: yellow;
+}
+
+#camera{
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+}
+#pred{
+    color: blueviolet;
+    font-family: monospace;
+    font-size: 20px;
+}
+#selfie{
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body id="body">
+    <div class="container">
+        <center>
+            <h3 class="btn btn-warning" id="heading">
+                EMOTION TO EMOJIE APP
+                <br>
+                <span>&#128512;</span>
+                <span>&#128517;</span>
+                <span>&#128519;	</span>
+                <span>&#128522;</span>
+                <span>&#128520;</span>
+                <span>&#128517;</span>
+            </h3>
+            <br><br>
+            <p id="p">
+                take your selfie to generate emojie
+                <br>
+                <b id="h">are you proper mask</b>
+                <br>
+                <b id="s">are you improper mask</b>
+                <br>
+                <b id="a">are you no mask</b>
+            </p>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h5>Webcam view</h5>
+                <div id="camera"></div>
+                <br>
+                <button class="btn btn-warning" onclick="capture()">Capture Image</button>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h4 id="pred">Prediction:</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h5> your picture</h5>
+                <div id="selfie"></div>
+                <br>
+                <button class="btn btn-warning" onclick="predict()">prediction emotion</button>
+            </div> 
+
+        </center>    
+    </div>
+    </body>
+    <script src="main.js"></script>
+
+</html>
